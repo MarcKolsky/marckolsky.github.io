@@ -40,6 +40,33 @@
         <li>If a mistake has been made while inputing the scores at the end of a round, this application has a button for that. The application tracks every score inputed, and will undo each input one by one until the mistake is corrected. Every score and level will be updated with every click of the undo button.</li>
       </ol>
       </section>
+      <section>
+      <h2>FTP Program</h2>
+      <ul>
+        <li class="single"><a href="https://github.com/MarcKolsky/FTP">View On <strong>GitHub</strong></a></li>
+      </ul>
+      <img src="images/FTP_Screenshot.png" width="358" height="214">
+<h3>Description:</h3>
+      <p>In response to the need for an FTP service to send large files to clients, this was my first opportunity to build a C# business application. My first FTP program was built in February 2013, but was able to do a complete overhaul in May 2014. Listening to the user's of the application led to many of the changes made. This application simplies the process of sending large files through email. The simplicity of this application makes it popular among its users.</p>
+      <h3>Benefits</h3>
+      <ol>
+        <li>I added in an extra large listbox that allows users to drag and drop multiple files at a time into the application. This simplies the process, and elliminates the need to go through an explorer to find your files. You can also add in entire folders if needed. Every file dropped into this listbox will be added to a Zip file before being uploaded to the server to keep customers from having to download more than one file, and reducing the overal size of the upload/download using Zip's built-in compression.</li>
+        <li>All files are uploaded to an Amazon S3 server, utilizing Amazon's SDK. Several checks are built-in to this application to make sure no file is overwirtten, unless authorized by the user, and organizes the files by client to keep the file structure nice and neat.</li>
+        <li>Once the Zip file is uploaded to the Amazon S3 server, the application creates a new email in Outlook that contains a link for the customer to click and download the Zip file from the Amazon server. The entire process is minimized to create the least amount of work with the greatest amount of benefit for the user.</li>
+      </ol>
+      </section>
+      <section>
+      <h2>Active Directory Interface</h2>
+      <ul>
+        <li class="single"><a href="https://github.com/MarcKolsky/ADI">View On <strong>GitHub</strong></a></li>
+      </ul>
+<h3>Description:</h3>
+      <p></p>
+      <h3>Benefits</h3>
+      <ol>
+        <li></li>
+      </ol>
+      </section>
     </div>
     <footer>
       <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
