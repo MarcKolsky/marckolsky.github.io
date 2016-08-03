@@ -23,21 +23,20 @@
       <section>
         <h2>My Work</h2>
 
-<p>I have been programming with C# for the last two years, and am presenting a small coding sample from three of my favorite projects I have worked on to date. Sections of the code have been omitted for this sample, but full scripts will be made available upon request during an interview.</p>
+<p>I have been programming with C# for 4+ years, and am presenting a small coding sample of projects I have worked on. Sections of the code have been omitted for security reason.  Newer code sample could be provided during an interview, but contain too much company informationto publish here on Github.</p>
       </section>
       <section>
-      <h2>Phase 10 Scorecard</h2>
+      <h2>Custom Weather Widget User Control</h2>
       <ul>
-        <li class="single"><a href="https://github.com/MarcKolsky/Phase_10_Scorecard">View Code On <strong>GitHub</strong></a></li>
+        <li class="single"><a href="https://github.com/MarcKolsky/WeatherWidget">View Code On <strong>GitHub</strong></a></li>
       </ul>
-      <img src="images/Phase_10_Screenhost.png" width="384" height="226">
       <h3>Description:</h3>
-      <p>I originally created this application for my mother as a birthday present in the first half of 2014. Phase 10 is a card game where keeping score is the most laborious and unfavorable part of the game. Unhappy with available Phase 10 scorecards in iTunes, I decided to build an application that my mother could use on her Samsung tablet, and simplify the score keeping when we played Phase 10.</p>
+      <p>Frustrated with the lack of customizations for existing weather forecast widgets, I built my own widget with a user control in C#.  Utilizing a web api from Open Weather, I built a user interface to visually display the current weather and 5-day forecast and coded it update the weather on a timed interval.  This user control can used in  a WPF project as I used it as part of a check in display for guests as they checked in at a resort./p>
       <h3>Features</h3>
       <ol>
-        <li>Scoring consists of simply dragging a value from a list box, and dropping it on the player's score box. The totaling of the score is done in the background automatically, and displayed at the bottom of each player's score box.</li>
-        <li>Keeping track of which player's complete a level can be laborious at times, so I programmed in the functionality to automatically track which level a player is on based on points. If a player has &lt;= 45 points at the end of a round, that player's level tracker increases by one. If a player has &gt;= 50 points at the end of a round, then they will remain on the same level as before. This greatly simplifies the process.</li>
-        <li>If a mistake has been made while inputing the scores at the end of a round, this application has a button for that. The application tracks every score inputed, and will undo each input one by one until the mistake is corrected. Every score and level will be updated with every click of the undo button.</li>
+        <li>Large background that changes with the trype of weather currently being experience (i.e. Sunny, Cloudy, Raining, Thunderstorms, etc.)</li>
+        <li>This code alows for easy changing of location in the web api call.  Built for reusability!</li>
+        <li>Logs issues into a simple text file making it easy to detect and resolve issues.</li>
       </ol>
       </section>
       <section>
